@@ -19,8 +19,8 @@ const Home = props => {
 
     return (
         <main className="main">
-            <About location={path} className={path === 'about' ? 'animate' : ''} />
-            <Portfolio location={path} className={path === 'portfolio' ? 'animate' : ''} />
+            <About location={path} className={path === 'about' ? 'animate' : 'home'} />
+            <Portfolio location={path} className={path === 'portfolio' ? 'animate' : 'home'} />
 		</main>
     )
 }
